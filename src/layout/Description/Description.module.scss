@@ -1,0 +1,371 @@
+#description {
+    padding: 30px 0 200px 120px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(51, 51, 51, 1);
+
+    .description__profile {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 150px;
+        margin: 0 0 50px 0;
+        gap: 20px;
+    }
+
+    .description__breakfast {
+        padding: 100px 0 50px 0;
+        display: flex;
+        gap: 200px;
+        justify-content: center;
+
+        .description__breakfast__info {
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+
+            & img {
+                width: 420px;
+                height: 300px;
+            }
+
+            & h2 {
+                font-size: 32px;
+            }
+
+            & span {
+                background-color: rgba(51, 51, 51, 0.542);
+                height: 1px;
+                width: 300px;
+            }
+
+            .description__breakfast__infoChild {
+                display: flex;
+                align-items: center;
+                font-size: 22px;
+                color: rgba(51, 51, 51, 0.467);
+                gap: 30px;
+
+                & p:nth-child(1) {
+                    font-size: 32px;
+                    color: rgba(51, 51, 51, 1);
+                }
+
+                & span {
+                    width: 30px;
+                    height: 1px;
+                    background-color: rgba(51, 51, 51, 0.478);
+                    rotate: 120deg;
+                }
+
+                & img {
+                    width: 120px;
+                    height: 100px;
+                }
+            }
+
+            .description__breakfast__infoAdditive {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+
+                & h3 {
+                    color: rgba(51, 51, 51, 0.669);
+                }
+
+                & p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    #description {
+
+        .description__breakfast {
+            gap: 100px;
+            padding: 50px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #description {
+        padding: 30px 0 200px 0;
+
+        .description__breakfast {
+            padding: 50px 0 50px 120px;
+
+            .description__breakfast__info {
+
+                & h2 {
+                    font-size: 28px;
+                }
+
+                & img {
+                    width: 350px;
+                    height: 200px;
+                }
+
+                .description__breakfast__infoChild {
+
+                    & img {
+                        width: 95px;
+                        height: 75px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    #description {
+        padding: 30px 0 200px 0;
+
+        .description__breakfast {
+            padding: 50px 0 50px 0;
+            display: flex;
+            gap: 0;
+            flex-direction: column;
+            row-gap: 200px;
+            justify-content: center;
+            align-items: center;
+
+            .description__breakfast__info {
+                font-size: 32px;
+
+                & img {
+                    width: 520px;
+                    height: 400px;
+                }
+
+                & h2 {
+                    font-size: 46px;
+                }
+
+                & span {
+                    width: 500px;
+                }
+
+                .description__breakfast__infoChild {
+                    font-size: 28px;
+                    gap: 80px;
+
+                    & p:nth-child(1) {
+                        font-size: 48px;
+                    }
+
+                    & span {
+                        width: 50px;
+                        height: 3px;
+                    }
+
+                    & img {
+                        width: 120px;
+                        height: 100px;
+                    }
+                }
+
+                .description__breakfast__infoAdditive {
+
+                    & h3 {
+                        font-size: 34px;
+                    }
+
+                    & p {
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #description {
+        padding: 30px 0 200px 0;
+
+        .description__breakfast {
+            padding: 50px 0 50px 0;
+            display: flex;
+            gap: 0;
+            flex-direction: column;
+            row-gap: 100px;
+            justify-content: center;
+            align-items: center;
+
+            .description__breakfast__info {
+                font-size: 28px;
+                align-items: center;
+
+                & img {
+                    width: 320px;
+                    height: 200px;
+                }
+
+                & h2 {
+                    font-size: 26px;
+                }
+
+                & span {
+                    width: 350px;
+                }
+
+                .description__breakfast__infoChild {
+                    font-size: 28px;
+                    gap: 30px;
+
+                    & p:nth-child(1) {
+                        font-size: 48px;
+                    }
+
+                    & span {
+                        width: 50px;
+                        height: 3px;
+                    }
+
+                    & img {
+                        width: 70px;
+                        height: 50px;
+                    }
+                }
+
+                .description__breakfast__infoAdditive {
+                    align-items: center;
+                    row-gap: 40px;
+
+                    & h3 {
+                        font-size: 26px;
+                    }
+
+                    & p {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 415px) {
+    #description {
+        padding: 30px 0 200px 0;
+
+        .description__breakfast {
+            padding: 50px 0 50px 0;
+            display: flex;
+            gap: 0;
+            flex-direction: column;
+            row-gap: 100px;
+            justify-content: center;
+            align-items: center;
+
+            .description__breakfast__info {
+                font-size: 28px;
+                align-items: center;
+
+                & img {
+                    width: 320px;
+                    height: 200px;
+                }
+
+                & h2 {
+                    font-size: 26px;
+                }
+
+                & span {
+                    width: 350px;
+                }
+
+                .description__breakfast__infoChild {
+                    font-size: 28px;
+                    gap: 30px;
+
+                    & p:nth-child(1) {
+                        font-size: 48px;
+                    }
+
+                    & span {
+                        width: 50px;
+                        height: 3px;
+                    }
+
+                    & img {
+                        width: 70px;
+                        height: 50px;
+                    }
+                }
+
+                .description__breakfast__infoAdditive {
+                    align-items: center;
+                    row-gap: 40px;
+
+                    & h3 {
+                        font-size: 26px;
+                    }
+
+                    & p {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 391px) {
+    #description {
+
+        .description__breakfast {
+
+            .description__breakfast__info {
+                font-size: 22px;
+
+                & h2 {
+                    font-size: 22px;
+                }
+
+                & span {
+                    width: 350px;
+                }
+
+                .description__breakfast__infoChild {
+                    font-size: 22px;
+                    gap: 30px;
+
+                    & p:nth-child(1) {
+                        font-size: 42px;
+                    }
+
+                    & span {
+                        width: 40px;
+                        height: 3px;
+                    }
+
+                    & img {
+                        width: 70px;
+                        height: 50px;
+                    }
+                }
+
+                .description__breakfast__infoAdditive {
+                    align-items: center;
+                    row-gap: 40px;
+
+                    & h3 {
+                        font-size: 22px;
+                    }
+
+                    & p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

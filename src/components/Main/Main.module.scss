@@ -1,0 +1,278 @@
+.main {
+    padding: 100px 0;
+
+    .main__restouran {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+        .main__restouran__title {
+            display: flex;
+            gap: 20px;
+            color: rgba(51, 51, 51, 1);
+            font-size: 20px;
+            margin: 200px 0 0 0;
+
+            & span {
+                position: relative;
+                width: 60px;
+                height: 3px;
+                background-color: rgba(181, 149, 113, 1);
+                bottom: -15px;
+            }
+        }
+
+        .main__restouran__info {
+            display: flex;
+            gap: 50px;
+
+            & h1 {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 250px;
+                font-size: 64px;
+                color: rgba(51, 51, 51, 1);
+            }
+
+            & p {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 50px;
+                font-size: 18px;
+                color: rgba(51, 51, 51, 1);
+            }
+        }
+
+        .main__restouran__image {
+            display: flex;
+            justify-content: center;
+
+            .main__restouran__imageCard {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+
+                .main__restouran__imageCardTitle {
+                    display: flex;
+                    gap: 20px;
+                    color: rgba(51, 51, 51, 1);
+                    font-size: 20px;
+
+                    & span {
+                        position: relative;
+                        width: 60px;
+                        height: 3px;
+                        background-color: rgba(181, 149, 113, 1);
+                        bottom: -15px;
+                    }
+                }
+            }
+        }
+
+        .main__restouran__button {
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            width: 85%;
+            margin: 0 auto;
+
+            & button {
+                padding: 15px 30px;
+                color: rgba(51, 51, 51, 1);
+                background-color: white;
+                border: 1px solid rgba(51, 51, 51, 0.2);
+                font-size: 20px;
+            }
+
+            & button:hover {
+                background-color: rgba(181, 149, 113, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        .main__restouran__delivery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .main__restouran__deliveryInfo {
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 100px;
+                gap: 100px;
+
+                .main__restouran__deliveryInfoTimer {
+                    font-size: 18px;
+                    color: rgba(51, 51, 51, 1);
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    & div {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 20px;
+                        color: rgba(181, 149, 113, 1);
+
+                        & h3 {
+                            font-size: 64px;
+                        }
+
+                        & p {
+                            font-size: 32px;
+                        }
+                    }
+                }
+            }
+
+            .main__restouran__deliveryMap {
+                width: 50%;
+
+                & iframe {
+                    width: 600px;
+                    height: 450px;
+                    border: none;
+                }
+            }
+
+            .main__restouran__deliveryModal {
+                position: absolute;
+                width: 430px;
+                height: 330px;
+                background-color: rgba(91, 91, 91, 1);
+                padding: 30px 0;
+
+                .main__restouran__deliveryModalMap {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    color: rgba(255, 255, 255, 1);
+                    font-size: 16px;
+
+                    .main__restouran__deliveryModalMapInfo {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        & div {
+                            display: flex;
+                            gap: 15px;
+                        }
+                    }
+
+                    .main__restouran__deliveryModalMapTimer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        & div {
+                            display: flex;
+                            gap: 15px;
+                        }
+                    }
+
+                    .main__restouran__deliveryModalMapButton {
+                        display: flex;
+                        gap: 15px;
+
+                        & button {
+                            padding: 10px 20px;
+                            color: rgba(255, 255, 255, 1);
+                            border: 1px solid rgba(255, 255, 255, 1);
+                            font-size: 16px;
+                            background-color: rgba(255, 255, 255, 0);
+                            transition: 1s;
+                        }
+
+                        & button:hover {
+                            background-color: rgba(181, 149, 113, 1);
+                            border: none;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .main {
+
+        .main__restouran {
+
+            .main__restouran__title {
+                font-size: 20px;
+                margin: 200px 0 0 0;
+            }
+
+            .main__restouran__info {
+                display: flex;
+                flex-direction: column;
+                row-gap: 60px;
+                align-items: center;
+
+                & h1 {
+                    width: 100%;
+                    padding: 0 100px;
+                }
+
+                & p {
+                    width: 100%;
+                }
+            }
+
+            .main__restouran__button {
+                justify-content: flex-start;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .main {
+        .main__restouran {
+
+            .main__restouran__image {
+                flex-direction: column;
+                row-gap: 100px;
+
+                .main__restouran__imageCard {
+                    width: 100%;
+                    align-items: stretch;
+                    padding: 0 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .main {
+        .main__restouran {
+
+            .main__restouran__image {
+
+                .main__restouran__imageCard {
+                    align-items: center;
+                    row-gap: 50px;
+                }
+            }
+
+            .main__restouran__button {
+                justify-content: center;
+            }
+        }
+    }
+}

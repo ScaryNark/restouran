@@ -1,0 +1,327 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 80%;
+    margin: 100px auto;
+
+    .card__title {
+        display: flex;
+        gap: 20px;
+        color: rgba(51, 51, 51, 1);
+        font-size: 20px;
+        margin: 200px 0 0 0;
+
+        & span {
+            position: relative;
+            width: 60px;
+            height: 3px;
+            background-color: rgba(181, 149, 113, 1);
+            bottom: -15px;
+        }
+    }
+
+    .card__delivery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card__delivery__info {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 100px;
+            gap: 100px;
+
+            .card__delivery__infoTime {
+                font-size: 18px;
+                color: rgba(51, 51, 51, 1);
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                & div {
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 20px;
+                    color: rgba(181, 149, 113, 1);
+
+                    & h3 {
+                        font-size: 64px;
+                    }
+
+                    & p {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+
+        .card__delivery__mapsBlock {
+            width: 50%;
+
+            & iframe {
+                width: 600px;
+                height: 450px;
+                border: none;
+            }
+        }
+
+        .card__delivery__modal {
+            position: absolute;
+            width: 430px;
+            height: 330px;
+            background-color: rgba(91, 91, 91, 1);
+            padding: 30px 0;
+
+            .card__delivery__modalMaps {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                color: rgba(255, 255, 255, 1);
+                font-size: 16px;
+
+                .card__delivery__modalMapsInfo {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    & div {
+                        display: flex;
+                        gap: 15px;
+                    }
+                }
+
+                .card__delivery__modalMapsTime {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    & div {
+                        display: flex;
+                        gap: 15px;
+                    }
+                }
+
+                .card__delivery__modalMapsButton {
+                    display: flex;
+                    gap: 15px;
+
+                    & button {
+                        padding: 10px 20px;
+                        color: rgba(255, 255, 255, 1);
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        font-size: 16px;
+                        background-color: rgba(255, 255, 255, 0);
+                    }
+
+                    & button:hover {
+                        background-color: rgba(181, 149, 113, 1);
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+                padding: 0px;
+            }
+
+            .card__delivery__mapsBlock {
+                width: 50%;
+
+                & iframe {
+                    width: 500px;
+                    height: 400px;
+                    border: none;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .card {
+
+        .card__delivery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 100px;
+
+            .card__delivery__info {
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+
+                .card__delivery__mapsBlock {
+                    width: 80%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+
+                .card__delivery__infoTime {
+                    font-size: 34px;
+                    text-align: center;
+
+                    & div {
+                        justify-content: center;
+
+                        & h3 {
+                            font-size: 92px;
+                        }
+
+                        & p {
+                            font-size: 48px;
+                        }
+                    }
+                }
+            }
+
+            .card__delivery__mapsBlock {
+                width: 100%;
+
+                & iframe {
+                    width: 750px;
+                    height: 650px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 650px;
+                    height: 550px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+
+                .card__delivery__infoTime {
+                    font-size: 28px;
+
+                    & div {
+
+                        & h3 {
+                            font-size: 82px;
+                        }
+
+                        & p {
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 420px;
+                    height: 300px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+
+                .card__delivery__infoTime {
+                    font-size: 28px;
+
+                    & div {
+
+                        & h3 {
+                            font-size: 82px;
+                        }
+
+                        & p {
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 320px;
+                    height: 300px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 361px) {
+
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 290px;
+                    height: 300px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.differentHeader {
+    padding: 30px 0 100px 100px;
+
+    .differentHeader__profile {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 150px;
+        margin: 0 0 50px 0;
+        gap: 20px;
+    }
+
+    .differentHeader__title {
+        display: flex;
+        justify-content: center;
+
+        & ul {
+            display: flex;
+            gap: 40px;
+            color: rgba(51, 51, 51, 1);
+
+            & li {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                align-items: center;
+            }
+
+            & span {
+                background-color: rgba(181, 149, 113, 1);
+                width: 100%;
+                height: 2px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .differentHeader {
+
+        .differentHeader__title {
+
+            & ul {
+                gap: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .differentHeader {
+
+        .differentHeader__title {
+
+            padding: 0 50px;
+
+            & ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 40px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .differentHeader {
+        padding: 150px 0 100px 0;
+
+        .differentHeader__title {
+
+            & ul {
+                font-size: 22px;
+            }
+        }
+
+        .differentHeader__profile {
+            padding: 0 100px;
+            font-size: 22px;
+
+            & img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .differentHeader {
+        padding: 150px 0 100px 0;
+
+        .differentHeader__profile {
+            justify-content: flex-end;
+            padding: 0 10px;
+        }
+    }
+}
