@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/restouran/static/css/main.c262d1ba.css",
+    "main.js": "/restouran/static/js/main.04114ef1.js",
+    "static/media/Rectangle 30.png": "/restouran/static/media/Rectangle 30.d1c4a833ede7b3af6945.png",
+    "static/media/Rectangle 40.png": "/restouran/static/media/Rectangle 40.c1b5916c09f5f6665302.png",
+    "static/media/Rectangle 42.png": "/restouran/static/media/Rectangle 42.915a82a0db7d9724cbe6.png",
+    "static/media/Rectangle 57 (10).png": "/restouran/static/media/Rectangle 57 (10).60e8521b84400ee9f23a.png",
+    "static/media/Rectangle 57 (11).png": "/restouran/static/media/Rectangle 57 (11).60e8521b84400ee9f23a.png",
+    "static/media/Rectangle 57 (8).png": "/restouran/static/media/Rectangle 57 (8).867f22e3af22c89b1402.png",
+    "static/media/Rectangle 57 (1).png": "/restouran/static/media/Rectangle 57 (1).81f7d30f7f118e066e01.png",
+    "static/media/Rectangle 57 (9).png": "/restouran/static/media/Rectangle 57 (9).81f7d30f7f118e066e01.png",
+    "static/media/Rectangle 57 (3).png": "/restouran/static/media/Rectangle 57 (3).fa674bed49a68e6e0107.png",
+    "static/media/Rectangle 57 (7).png": "/restouran/static/media/Rectangle 57 (7).797ab75f41517e79a665.png",
+    "static/media/Rectangle 57 (4).png": "/restouran/static/media/Rectangle 57 (4).5f3fe6375bdb256f36c3.png",
+    "static/media/Rectangle 57 (6).png": "/restouran/static/media/Rectangle 57 (6).41920dac9ace3c2e6063.png",
+    "static/media/Rectangle 57 (2).png": "/restouran/static/media/Rectangle 57 (2).2e8064a57bd9b0330820.png",
+    "static/media/Rectangle 57 (5).png": "/restouran/static/media/Rectangle 57 (5).0b78abb9598c1d7cbe6d.png",
+    "index.html": "/restouran/index.html",
+    "main.c262d1ba.css.map": "/restouran/static/css/main.c262d1ba.css.map",
+    "main.04114ef1.js.map": "/restouran/static/js/main.04114ef1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c262d1ba.css",
+    "static/js/main.04114ef1.js"
+  ]
+}
