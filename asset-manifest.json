@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restouran/static/css/main.c262d1ba.css",
-    "main.js": "/restouran/static/js/main.04114ef1.js",
+    "main.css": "/restouran/static/css/main.aef09430.css",
+    "main.js": "/restouran/static/js/main.0d471c6f.js",
     "static/media/Rectangle 30.png": "/restouran/static/media/Rectangle 30.d1c4a833ede7b3af6945.png",
     "static/media/Rectangle 40.png": "/restouran/static/media/Rectangle 40.c1b5916c09f5f6665302.png",
     "static/media/Rectangle 42.png": "/restouran/static/media/Rectangle 42.915a82a0db7d9724cbe6.png",
@@ -17,11 +17,11 @@
     "static/media/Rectangle 57 (2).png": "/restouran/static/media/Rectangle 57 (2).2e8064a57bd9b0330820.png",
     "static/media/Rectangle 57 (5).png": "/restouran/static/media/Rectangle 57 (5).0b78abb9598c1d7cbe6d.png",
     "index.html": "/restouran/index.html",
-    "main.c262d1ba.css.map": "/restouran/static/css/main.c262d1ba.css.map",
-    "main.04114ef1.js.map": "/restouran/static/js/main.04114ef1.js.map"
+    "main.aef09430.css.map": "/restouran/static/css/main.aef09430.css.map",
+    "main.0d471c6f.js.map": "/restouran/static/js/main.0d471c6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c262d1ba.css",
-    "static/js/main.04114ef1.js"
+    "static/css/main.aef09430.css",
+    "static/js/main.0d471c6f.js"
   ]
 }
