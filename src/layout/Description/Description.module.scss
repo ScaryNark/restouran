@@ -215,11 +215,11 @@
                 }
 
                 .description__breakfast__infoChild {
-                    font-size: 28px;
+                    font-size: 22px;
                     gap: 30px;
 
                     & p:nth-child(1) {
-                        font-size: 48px;
+                        font-size: 36px;
                     }
 
                     & span {
@@ -326,20 +326,25 @@
             .description__breakfast__info {
                 font-size: 22px;
 
+                & img {
+                    width: 220px;
+                    height: 150px;
+                }
+
                 & h2 {
-                    font-size: 22px;
+                    font-size: 18px;
                 }
 
                 & span {
-                    width: 350px;
+                    width: 300px;
                 }
 
                 .description__breakfast__infoChild {
-                    font-size: 22px;
-                    gap: 30px;
+                    font-size: 18px;
+                    gap: 15px;
 
                     & p:nth-child(1) {
-                        font-size: 42px;
+                        font-size: 32px;
                     }
 
                     & span {
@@ -348,8 +353,8 @@
                     }
 
                     & img {
-                        width: 70px;
-                        height: 50px;
+                        width: 60px;
+                        height: 40px;
                     }
                 }
 

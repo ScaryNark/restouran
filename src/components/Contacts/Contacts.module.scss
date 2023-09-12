@@ -244,16 +244,16 @@
             .card__delivery__info {
 
                 .card__delivery__infoTime {
-                    font-size: 28px;
+                    font-size: 22px;
 
                     & div {
 
                         & h3 {
-                            font-size: 82px;
+                            font-size: 76px;
                         }
 
                         & p {
-                            font-size: 28px;
+                            font-size: 36px;
                         }
                     }
                 }
@@ -299,6 +299,76 @@
 
                 & iframe {
                     width: 320px;
+                    height: 300px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+
+                .card__delivery__infoTime {
+                    font-size: 18px;
+
+                    & div {
+
+                        & h3 {
+                            font-size: 52px;
+                        }
+
+                        & p {
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 300px;
+                    height: 280px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card {
+
+        .card__delivery {
+
+            .card__delivery__info {
+
+                .card__delivery__infoTime {
+                    font-size: 18px;
+
+                    & div {
+
+                        & h3 {
+                            font-size: 52px;
+                        }
+
+                        & p {
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .card__delivery__mapsBlock {
+
+                & iframe {
+                    width: 290px;
                     height: 300px;
                     border: none;
                 }

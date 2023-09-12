@@ -19,7 +19,7 @@ const Header = () => {
         >
             <div className={s.header__menu}>
                 <div className={s.header__menu__logo}>
-                    <Link to='/restouran'><img src={logo} alt="" /></Link>
+                    <Link to='/'><img src={logo} alt="" /></Link>
                     <div onClick={() => setBurgerMenu(!burgerMenu)} className={s.header__menu__burgerMenu}>
                         <span></span>
                     </div>
@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
                 <div className={burgerMenu ? s.header__burgerModal : s.header__opacityBurger}>
                     <div className={s.header__burgerModal__logo}>
-                        <img src={logo} alt="" />
+                        <Link to='/'><img src={logo} alt="" /></Link>
                         <span onClick={() => setBurgerMenu(!burgerMenu)}></span>
                     </div>
                     <div className={s.header__burgerModal__navigate}>
